@@ -15,7 +15,7 @@ const Nav = () => {
                     e.target.classList.replace("opacity-70", "opacity-100")}}
                 onMouseLeave={(e)=>{e.target.classList.remove("animate-pulse"); 
                     e.target.classList.replace("opacity-100", "opacity-70")}}>
-                a</i>
+                </i>
             </div>
 
             {/* menu */}
@@ -69,7 +69,7 @@ const Nav = () => {
                     e.target.classList.replace("text-4xl", "text-3xl");
                     e.target.classList.replace("fa-door-open", "fa-door-closed")
                 }}
-                onClick={()=>dispatch({type: "menu"})}>a</i>
+                onClick={()=>dispatch({type: "menu"})}></i>
             </div>
         </div>
     );

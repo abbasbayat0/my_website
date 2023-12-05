@@ -8,7 +8,7 @@ const ContactIcon = () => {
                     <i className='fa-solid fa-envelope text-2xl transition-all duration-300 opacity-70 cursor-pointer' 
                     onMouseEnter={(e)=>{e.target.classList.replace("opacity-70", "opacity-100"); e.target.classList.replace("fa-envelope", "fa-envelope-open")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-100", "opacity-70"); e.target.classList.replace("fa-envelope-open", "fa-envelope")}}>
-                    a</i>
+                    </i>
                 </a>
 
                 <br /><br />
@@ -17,7 +17,7 @@ const ContactIcon = () => {
                     <i className='fa-solid fa-phone text-2xl transition-all duration-300 rotate-135 opacity-70 cursor-pointer' 
                     onMouseEnter={(e)=>{e.target.classList.replace("opacity-70", "opacity-100"); e.target.classList.replace("rotate-135", "rotate-250")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-100", "opacity-70"); e.target.classList.replace("rotate-250", "rotate-135")}}>
-                    a</i>
+                    </i>
                 </a>
             </div>
     );

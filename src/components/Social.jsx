@@ -7,7 +7,7 @@ const Social = () => {
                         e.target.classList.replace("text-sand-50", "text-jordy-400")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-100", "opacity-70");
                         e.target.classList.replace("text-jordy-400", "text-sand-50")}}>
-                    a</i>
+                    </i>
                 </a>
                 <br />
 
@@ -17,7 +17,7 @@ const Social = () => {
                         e.target.classList.replace("text-sand-50", "text-moody-500")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-100", "opacity-70");
                         e.target.classList.replace("text-moody-500", "text-sand-50")}}>
-                    a</i>
+                    </i>
                 </a>
                 <br />
 
@@ -27,7 +27,7 @@ const Social = () => {
                         e.target.classList.replace("text-sand-50", "text-curious-500")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-100", "opacity-70");
                         e.target.classList.replace("text-curious-500", "text-sand-50")}}>
-                    a</i>
+                    </i>
                 </a>
                 <br />
 
@@ -37,7 +37,7 @@ const Social = () => {
                         e.target.classList.replace("text-sand-50", "text-blush-600")}} 
                     onMouseLeave={(e)=>{e.target.classList.replace("opacity-70", "opacity-100");
                         e.target.classList.replace("text-blush-600", "text-sand-50")}}>
-                    a</i>
+                    </i>
                 </a>
             </div>
     );
