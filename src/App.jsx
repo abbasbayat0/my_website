@@ -16,7 +16,7 @@ const App = () => {
     const [state, dispatch] = useReducer(Reducer, initialState);
     return (
         <>
-            {/* i dont use react-router-dom because of particles package :) */}
+            {/* i dont use react-router-dom because of particles package :| */}
             
             {!state.first && <Intro />}
             <context.Provider value={{state, dispatch}}>

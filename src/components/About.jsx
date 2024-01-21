@@ -29,15 +29,15 @@ const about = () => {
                 <img src={require("../images/endeavour-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
             }
             
-            <div className='lg:w-1/2 w-full h-80 absolute lg:left-24 p-5 lg:p-0 lg:top-56 top-[60%]'>
-                <p className='text-sand-50 font-poppins text-4xl'>I'm a Creative <span className={`${state.text}`}>Front-end</span> Developer</p>
-                <p className='text-sand-50 w-11/12 ??? font-poppins absolute lg:top-16 top-40 text-justify opacity-80 z-10'>I am a front-end developer with a strong passion for web development. I am constantly seeking out opportunities to expand my knowledge and skills in this ever-evolving field. I am particularly interested in exploring new technologies and incorporating them into my work to create innovative and user-friendly websites. I am also enthusiastic about collaborating with other professionals in the industry and am eager to gain experience working in a team of skilled programmers. While I have primarily worked independently thus far, I am excited about the prospect of contributing to and learning from a collaborative team environment.</p>
+            <div className='lg:w-1/2 w-full h-80 absolute md:mt-10 lg:left-10 p-5 lg:p-0 lg:top-56 top-[60%]'>
+                <p className='text-sand-50 font-poppins text-4xl lg:-my-10'>I'm a Creative <span className={`${state.text}`}>Front-end</span> Developer</p>
+                <p className='text-sand-50 w-11/12 ??? font-poppins absolute lg:top-16 top-40 text-justify opacity-80 md:top-24 z-10'>I am a front-end developer with a strong passion for web development. I am constantly seeking out opportunities to expand my knowledge and skills in this ever-evolving field. I am particularly interested in exploring new technologies and incorporating them into my work to create innovative and user-friendly websites. I am also enthusiastic about collaborating with other professionals in the industry and am eager to gain experience working in a team of skilled programmers. While I have primarily worked independently thus far, I am excited about the prospect of contributing to and learning from a collaborative team environment.</p>
             </div>
 
             {/* skills */}
-            <p className='text-sand-50 absolute lg:top-full top-[122%] text-5xl font-raleway font-bold'>My <span className={`${state.text}`}>Skills</span></p>
+            <p className='text-sand-50 absolute md:top-[100%] lg:top-[70%] xl:top-[100%] top-[122%] text-5xl font-raleway font-bold'>My <span className={`${state.text}`}>Skills</span></p>
 
-            <div className='w-full absolute lg:top-[110%] top-[130%] flex items-center justify-center flex-wrap'>
+            <div className='w-full absolute lg:top-[80%] xl:top-[110%] top-[130%] flex items-center justify-center flex-wrap md:top-[110%]'>
 
                 {/* html */}
                 <div title='HTML' className='lg:w-1/4 lg:h-52 h-20 w-1/5 overflow-hidden relative bg-gray-900 opacity-90 m-5 rounded-2xl flex justify-center items-center'

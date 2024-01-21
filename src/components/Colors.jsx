@@ -7,7 +7,7 @@ const Color = () => {
         <div className="absolute right-1 hidden top-1/3 z-20 lg:flex w-56 h-52 p-2 overflow-hidden">
             <div>
                 <i class={`fa-solid fa-gear animate-gear ${state.showColor? "translate-x-0 opacity-90": "translate-x-[185px] opacity-0"} cursor-pointer mr-2 text-sand-50 text-2xl transition-all duration-1000`}
-                onClick={()=>dispatch({type: "showColor"})}>a</i>
+                onClick={()=>dispatch({type: "showColor"})}></i>
             </div>
             <div className={`bg-gray-800 opacity-90 w-full h-full text-center rounded-lg ${state.showColor ? "translate-x-0 opacity-90":"translate-x-48 opacity-10"} transition-all duration-1000`}>
                 <p className={`text-sand-50 text-xl ${state.showColor ? "animate-text":""} mt-1`}>Custom Colors</p>
