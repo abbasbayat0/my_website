@@ -22,7 +22,7 @@ const Nav = () => {
             <div className={`absolute z-20 bottom-full ${state.showMenu ? "translate-y-full opacity-100": "opacity-0"} w-full h-full bg-gray-900 flex justify-center items-center transition-all duration-1000 delay-75`}>
 
                 {/* navbar title */}
-                <h1 className={`absolute text-gray-500 flex justify-center items-center font-blackOps text-[50px] lg:text-[160px] transition-all duration-1000 ${state.menuTitle ? "opacity-40 tracking-tighter":"opacity-0"}`}>{state.menuTitle}</h1>
+                <h1 className={`absolute text-gray-500 flex justify-center items-center font-blackOps text-[50px] lg:text-[140px] transition-all duration-1000 ${state.menuTitle ? "opacity-40 tracking-tighter":"opacity-0"}`}>{state.menuTitle}</h1>
 
                 {/* list of pages */}
                 <div className="h-80 text-3xl cursor-pointer absolute text-sand-50 opacity-80 font-poppins flex flex-col justify-around items-center">
