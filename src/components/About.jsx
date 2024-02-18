@@ -11,22 +11,22 @@ const about = () => {
             
             {/* image changer */}
             {state.color === "jade-600" && 
-                <img src={require("../images/jade-600.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/jade-600.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             {state.color === "cardinal-700" && 
-                <img src={require("../images/cardinal-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/cardinal-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             {state.color === "chill-700" && 
-                <img src={require("../images/chill-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/chill-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             {state.color === "sienna-500" && 
-                <img src={require("../images/sienna-500.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/sienna-500.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             {state.color === "indigo-900" && 
-                <img src={require("../images/indigo-900.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/indigo-900.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             {state.color === "endeavour-700" && 
-                <img src={require("../images/endeavour-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10' />
+                <img src={require("../images/endeavour-700.png")} alt="" className='opacity-70 absolute top-1/4 lg:right-10 ' />
             }
             
             <div className='lg:w-1/2 w-full h-80 absolute md:mt-10 lg:left-10 p-5 lg:p-0 lg:top-56 top-[60%]'>

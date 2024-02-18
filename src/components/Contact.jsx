@@ -32,7 +32,7 @@ const Contact = () => {
 
                 {/* the main */}
                 <div className='z-10 flex flex-col items-start opacity-60 justify-around w-56 h-4/5 absolute left-36 md:left-40 md:top-20 md:w-96 xl:left-40 top-14 xl:top-14'>
-                    <p className='text-sand-50 text-md font-poppins md:text-3xl xl:text-base'>ABBSA BAYAT</p>
+                    <p className='text-sand-50 text-md font-poppins md:text-3xl xl:text-base'>ABBAS BAYAT</p>
                     <p className='text-sand-50 text-md font-poppins md:text-3xl xl:text-base'>Nahavand, Hamedan, Iran</p>
                     <p className='text-sand-50 text-md font-poppins md:text-3xl xl:text-base'>+98 939 905 34 10</p>
                     <p className='text-sand-50 text-md font-poppins md:text-3xl xl:text-base'>abbas0bayat@gmail.com</p>
