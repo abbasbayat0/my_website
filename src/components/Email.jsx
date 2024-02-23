@@ -82,7 +82,7 @@ const Email = () => {
         height="800px"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        className={`absolute -top-44 transition-all duration-1000 ${
+        className={`absolute -left-44 -top-36 md:left-0 lg:left-24 xl:left-0 transition-all duration-1000 ${
           emailSent ? "opacity-100" : "opacity-0"
         }`}
       >
