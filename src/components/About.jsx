@@ -77,11 +77,11 @@ const about = () => {
       </div>
 
       {/* skills */}
-      <p className="text-sand-50 absolute md:top-[100%] lg:top-[100%] xl:top-[110%] top-[122%] text-5xl font-raleway font-bold 360:mt-48 414:mt-24 425:mt-0">
+      <p className="text-sand-50 absolute md:top-[100%] lg:top-[70%] xl:top-[110%] top-[122%] text-5xl font-raleway font-bold 360:mt-48 414:mt-24 425:mt-0">
         My <span className={`${state.text}`}>Skills</span>
       </p>
 
-      <div className="w-full absolute lg:top-[110%] xl:top-[120%] top-[130%] flex items-center justify-center flex-wrap md:top-[110%] 360:mt-44 414:mt-24 425:mt-0">
+      <div className="w-full absolute lg:top-[80%] xl:top-[120%] top-[130%] flex items-center justify-center flex-wrap md:top-[110%] 360:mt-44 414:mt-24 425:mt-0">
         {/* html */}
         <div
           title="HTML"
