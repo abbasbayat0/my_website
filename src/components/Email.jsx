@@ -24,7 +24,7 @@ const Email = () => {
   };
 
   return (
-    <div className="absolute md:left-5 top-[90%] md:top-[130%] xl:top-64 w-full xl:w-1/2 h-4/6 font-poppins">
+    <div className="absolute md:left-5 top-[90%] md:top-[150%] xl:top-64 w-full xl:w-1/2 h-4/6 font-poppins 360:mt-36 414:mt-36 425:mt-0 lg:top-[125%]">
       {emailSent ? (
         <motion.h2
           initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ const Email = () => {
       <br />
       <br />
       <form
-        className={`absolute w-full h-full z-10 ${
+        className={`absolute w-full h-full z-10 360:-left-2 ${
           emailSent ? "hidden" : "flex flex-col"
         }`}
         ref={form}
@@ -52,7 +52,7 @@ const Email = () => {
           type="text"
           placeholder="Name"
           name="user_name"
-          className="w-72 bg-gray-700 p-2 md:left-16 rounded-lg lg:w-1/3 absolute left-20 text-gray-200 xl:left-20 focus:outline-none xl:w-1/3"
+          className="w-72 bg-gray-700 p-2 md:left-16 rounded-lg lg:w-1/3 absolute text-gray-200 xl:left-20 focus:outline-none xl:w-1/3 360:left-12 414:left-16 425:left-20 lg:ml-4"
         />
 
         <input
@@ -60,7 +60,7 @@ const Email = () => {
           type="email"
           placeholder="email"
           name="user_email"
-          className="w-72 bg-gray-700 p-2 top-12 md:top-0 rounded-lg absolute lg:ml-44 lg:w-1/3 md:left-96 text-gray-200 xl:left-80 left-20 xl:mt-0 focus:outline-none xl:w-1/3 xl:"
+          className="w-72 bg-gray-700 p-2 top-12 md:top-0 rounded-lg absolute lg:ml-44 lg:w-1/3 md:left-96 text-gray-200 xl:left-80 xl:mt-0 focus:outline-none xl:w-1/3 360:left-12 414:left-16 425:left-20"
         />
 
         <textarea
@@ -73,7 +73,7 @@ const Email = () => {
         <input
           type="submit"
           value="Send"
-          className="cursor-pointer transition-all text-gray-400 hover:text-gray-300 w-14 h-10 rounded-lg bg-gray-700 z-20 m-auto lg:mb-32 mb-32 xl:mb-10 xl:ml-96"
+          className="cursor-pointer transition-all text-gray-400 hover:text-gray-300 w-14 h-10 rounded-lg bg-gray-700 z-20 m-auto mb-32 xl:ml-96 360:mt-96 425:mt-[110%] md:mt-[60%] lg:mt-[50%] xl:mt-[45%]"
         />
       </form>
 

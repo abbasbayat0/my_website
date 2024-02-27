@@ -18,51 +18,51 @@ const about = () => {
         <img
           src={require("../images/jade-600.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
       {state.color === "cardinal-700" && (
         <img
           src={require("../images/cardinal-700.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
       {state.color === "chill-700" && (
         <img
           src={require("../images/chill-700.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
       {state.color === "sienna-500" && (
         <img
           src={require("../images/sienna-500.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
       {state.color === "indigo-900" && (
         <img
           src={require("../images/indigo-900.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
       {state.color === "endeavour-700" && (
         <img
           src={require("../images/endeavour-700.png")}
           alt=""
-          className="opacity-70 absolute top-1/4 lg:right-10 "
+          className="opacity-70 absolute top-1/4 lg:right-0 xl:right-10 "
         />
       )}
 
       <div className="lg:w-1/2 w-full h-80 absolute md:mt-10 lg:left-10 p-5 lg:p-0 lg:top-56 top-[60%]">
-        <p className="text-sand-50 font-poppins text-4xl lg:-my-10">
+        <p className="text-sand-50 font-poppins text-4xl lg:-my-10 360:mt-4 414:mt-10">
           I'm a Creative <span className={`${state.text}`}>Front-end</span>{" "}
           Developer
         </p>
-        <p className="text-sand-50 w-11/12 ??? font-poppins absolute lg:top-16 top-40 text-justify opacity-80 md:top-24 z-10">
+        <p className="text-sand-50 w-11/12 font-poppins absolute lg:top-16 top-40 text-justify opacity-80 md:top-28 z-10 lg:text-lg 414:mt-5">
           I am a front-end developer with a strong passion for web development.
           I am constantly seeking out opportunities to expand my knowledge and
           skills in this ever-evolving field. I am particularly interested in
@@ -77,11 +77,11 @@ const about = () => {
       </div>
 
       {/* skills */}
-      <p className="text-sand-50 absolute md:top-[100%] lg:top-[70%] xl:top-[100%] top-[122%] text-5xl font-raleway font-bold">
+      <p className="text-sand-50 absolute md:top-[100%] lg:top-[100%] xl:top-[110%] top-[122%] text-5xl font-raleway font-bold 360:mt-48 414:mt-24 425:mt-0">
         My <span className={`${state.text}`}>Skills</span>
       </p>
 
-      <div className="w-full absolute lg:top-[80%] xl:top-[110%] top-[130%] flex items-center justify-center flex-wrap md:top-[110%]">
+      <div className="w-full absolute lg:top-[110%] xl:top-[120%] top-[130%] flex items-center justify-center flex-wrap md:top-[110%] 360:mt-44 414:mt-24 425:mt-0">
         {/* html */}
         <div
           title="HTML"

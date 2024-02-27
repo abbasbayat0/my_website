@@ -13,8 +13,6 @@ const Contact = () => {
         <span className={`text-${state.color}`}>Get</span> In Touch.
       </p>
 
-      <Email />
-
       {/* info */}
       <div className="absolute xl:right-20 top-44 xl:w-1/3 xl:h-5/6">
         {/* the icons */}
@@ -62,6 +60,8 @@ const Contact = () => {
           className="h-full m-auto rounded-xl opacity-60"
         />
       </div>
+
+      <Email />
     </div>
   );
 };
