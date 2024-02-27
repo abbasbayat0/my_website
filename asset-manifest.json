@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my_website/static/css/main.bcf86540.css",
+    "main.js": "/my_website/static/js/main.062591af.js",
+    "static/media/2.png": "/my_website/static/media/2.ba472379d14e7885cd26.png",
+    "static/media/contact.jpg": "/my_website/static/media/contact.18729c9cb4f1290dd1ac.jpg",
+    "static/media/pouria.JPG": "/my_website/static/media/pouria.30137e9280cd136cba0a.JPG",
+    "static/media/todo.JPG": "/my_website/static/media/todo.64a530c571e94d4544a1.JPG",
+    "index.html": "/my_website/index.html",
+    "main.bcf86540.css.map": "/my_website/static/css/main.bcf86540.css.map",
+    "main.062591af.js.map": "/my_website/static/js/main.062591af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcf86540.css",
+    "static/js/main.062591af.js"
+  ]
+}
